@@ -27,7 +27,7 @@ public class Invoker {
                         }
                     }
 
-                    //вызываем метод нужное кол-во раз
+                    //вызываем метод нужное кол-тво раз
                     for (int i = 0; i < r.times(); i++) {
                         method.invoke(obj, methodArgs);
                     }

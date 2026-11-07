@@ -9,7 +9,7 @@ public class MyClass {
         System.out.println("publicMethod2 called");
     }
 
-    //2 защищенных метода с аннотацией
+     //2 защищенных метода с аннотацией
     @Repeat(times = 2)
     protected void protectedMethod1() {
         System.out.println("protectedMethod1 called");
